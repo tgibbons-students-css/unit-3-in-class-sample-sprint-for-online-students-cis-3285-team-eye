@@ -13,6 +13,7 @@ namespace Sermo.Markdown
     public class RoomViewModelReaderMarkdownDecorator : IRoomViewModelReader
     {
         public RoomViewModelReaderMarkdownDecorator(IRoomViewModelReader @delegate, Markdown markdown)
+            // Changes for Sprint 2 -- User Story 1 -- Bill Dixon
         {
             this.@delegate = @delegate;
             this.markdown = markdown;
