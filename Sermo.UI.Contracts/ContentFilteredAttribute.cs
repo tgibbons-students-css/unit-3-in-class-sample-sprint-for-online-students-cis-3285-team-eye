@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 namespace Sermo.UI.Contracts
 {
     public class ContentFilteredAttribute : ValidationAttribute
+        // Changes for Sprint 2 -- User Story 2 -- Bill Dixon
     {
         private readonly string[] blacklist = new string[] 
         {
