@@ -8,6 +8,7 @@ using System.Diagnostics.Contracts;
 using Sermo.UI.Contracts;
 using Sermo.UI.ViewModels;
 using System.Net;
+// Changes Sprint 1 --  I want to create rooms for categorizing conversations -- Bill Dixon
 
 namespace Sermo.UI.Controllers
 {
